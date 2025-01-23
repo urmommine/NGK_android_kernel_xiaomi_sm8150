@@ -18,7 +18,7 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       id: build
       env:
-        NAME: NigguKernel
+        NAME: Loganysl
       with:
         arch: arm64
         compiler: gcc/12
