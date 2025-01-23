@@ -21,7 +21,7 @@ jobs:
         NAME: Loganysl
       with:
         arch: arm64
-        compiler: clang
+        compiler: gcc/8
         defconfig: vayu_defconfig
         image: Image.gz-dtb
 
